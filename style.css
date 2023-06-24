@@ -1,4 +1,3 @@
-/* Estilo para o botão */
 button {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -21,26 +20,31 @@ button {
   }
   
   /* Estilo para os produtos */
- .product {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  width: 250px; /* Aumenta a largura dos produtos */
-  padding: 10px; /* Adiciona espaçamento interno aos produtos */
-  background-color: #f9f9f9; /* Cor de fundo dos produtos */
-  border-radius: 5px; /* Adiciona borda arredondada aos produtos */
-  cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s; /* Adiciona transição suave para transformação e sombra */
-}
-
-.product:hover {
-  transform: scale(1.05); /* Aumenta ligeiramente o tamanho do produto em hover */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave em hover */
-}
-
-.product img {
-  width: 100px;
-  height: 125px;
-  margin-right: 10px;
-}
+  .product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 250px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
   
+  .product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product img {
+    width: 100px;
+    height: 125px;
+    margin-right: 10px;
+  }
+  
+  #productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
